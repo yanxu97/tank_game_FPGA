@@ -1,0 +1,221 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -5.929
+TNS   : -510.543
+
+Type  : Slow 1200mV 85C Model Setup 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -3.152
+TNS   : -94.553
+
+Type  : Slow 1200mV 85C Model Setup 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -2.119
+TNS   : -20.629
+
+Type  : Slow 1200mV 85C Model Setup 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -1.942
+TNS   : -29.192
+
+Type  : Slow 1200mV 85C Model Setup 'de2lcd:lcd|CLK_400HZ'
+Slack : -1.436
+TNS   : -38.044
+
+Type  : Slow 1200mV 85C Model Hold 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : 0.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'de2lcd:lcd|CLK_400HZ'
+Slack : 0.387
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -1.592
+TNS   : -1.592
+
+Type  : Slow 1200mV 85C Model Removal 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : 2.037
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -253.575
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -2.693
+TNS   : -60.518
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'de2lcd:lcd|CLK_400HZ'
+Slack : -1.285
+TNS   : -62.965
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -1.285
+TNS   : -38.550
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -1.285
+TNS   : -29.555
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -5.303
+TNS   : -451.668
+
+Type  : Slow 1200mV 0C Model Setup 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -2.783
+TNS   : -82.316
+
+Type  : Slow 1200mV 0C Model Setup 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -1.800
+TNS   : -16.197
+
+Type  : Slow 1200mV 0C Model Setup 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -1.714
+TNS   : -24.704
+
+Type  : Slow 1200mV 0C Model Setup 'de2lcd:lcd|CLK_400HZ'
+Slack : -1.203
+TNS   : -30.361
+
+Type  : Slow 1200mV 0C Model Hold 'de2lcd:lcd|CLK_400HZ'
+Slack : 0.338
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : 0.356
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : 0.399
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -1.295
+TNS   : -1.295
+
+Type  : Slow 1200mV 0C Model Removal 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : 1.792
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -253.575
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -2.649
+TNS   : -60.474
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'de2lcd:lcd|CLK_400HZ'
+Slack : -1.285
+TNS   : -62.965
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -1.285
+TNS   : -38.550
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -1.285
+TNS   : -29.555
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -1.285
+TNS   : -1.285
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.378
+TNS   : -162.521
+
+Type  : Fast 1200mV 0C Model Setup 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -1.036
+TNS   : -24.192
+
+Type  : Fast 1200mV 0C Model Setup 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -0.492
+TNS   : -2.880
+
+Type  : Fast 1200mV 0C Model Setup 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -0.458
+TNS   : -2.306
+
+Type  : Fast 1200mV 0C Model Setup 'de2lcd:lcd|CLK_400HZ'
+Slack : -0.195
+TNS   : -1.282
+
+Type  : Fast 1200mV 0C Model Hold 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : 0.167
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'de2lcd:lcd|CLK_400HZ'
+Slack : 0.174
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : 0.182
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : 0.190
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -0.444
+TNS   : -0.444
+
+Type  : Fast 1200mV 0C Model Removal 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : 1.147
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -210.196
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'de2lcd:lcd|CLK_400HZ'
+Slack : -1.000
+TNS   : -49.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'VGA_top_level:vga|VGA_SYNC:videoSync|pixel_clock_int'
+Slack : -1.000
+TNS   : -46.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|scan_ready'
+Slack : -1.000
+TNS   : -30.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|keyboard_clk_filtered'
+Slack : -1.000
+TNS   : -23.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ps2:keyboard|keyboard:u1|ready_set'
+Slack : -1.000
+TNS   : -1.000
+
+------------------------------------------------------------

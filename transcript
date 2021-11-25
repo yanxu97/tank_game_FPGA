@@ -1,0 +1,2790 @@
+# Compile of bullet.vhd failed with 8 errors.
+# Compile of bullet_tb.vhd failed with 1 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 2 failed with 9 errors.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 3 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 3 errors.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 1 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 1 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 5 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 5 errors.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 1 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 1 error.
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd was successful.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.bullet_tb
+# vsim -gui work.bullet_tb 
+# Start time: 23:40:23 on Nov 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+add wave -position insertpoint  \
+sim:/bullet_tb/tb_xb \
+sim:/bullet_tb/tb_xt_h \
+sim:/bullet_tb/tb_xt_l \
+sim:/bullet_tb/tb_yb \
+sim:/bullet_tb/tb_yt_h \
+sim:/bullet_tb/tb_yt_l
+run -all
+# Break key hit
+# Break in Process clock_process_f at C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet_tb.vhd line 53
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:53 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 23:43:53 on Nov 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:43:53 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 23:43:53 on Nov 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:43:55 on Nov 20,2021, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 11
+# vsim "+notimingchecks" -L work work.divider_tb -wlf testbench.wlf 
+# Start time: 23:43:55 on Nov 20,2021
+# ** Error: (vsim-3170) Could not find 'divider_tb'.
+#         Searched libraries:
+#             C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./bullet_wave.do PAUSED at line 7
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:44:18 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 23:44:18 on Nov 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:44:18 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 23:44:19 on Nov 20,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 23:43:55 on Nov 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# ** UI-Msg: (vish-4014) No objects found matching '/bullet_tb/dut/*'.
+# Error in macro ./bullet_wave.do line 13
+# ** UI-Msg: (vish-4014) No objects found matching '/bullet_tb/dut/*'.
+#     while executing
+# "add wave -noupdate -group test -radix decimal /bullet_tb/dut/*"
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:47:10 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 23:47:10 on Nov 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:47:10 on Nov 20,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 23:47:10 on Nov 20,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 23:47:12 on Nov 20,2021, Elapsed time: 0:03:17
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 23:47:12 on Nov 20,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# ** UI-Msg: (vish-4014) No objects found matching '/bullet_tb/dut/*'.
+# Error in macro ./bullet_wave.do line 13
+# ** UI-Msg: (vish-4014) No objects found matching '/bullet_tb/dut/*'.
+#     while executing
+# "add wave -noupdate -group test -radix decimal /bullet_tb/dut/*"
+# A time value could not be extracted from the current line
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd was successful.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bullet_tb(test)
+run -all
+# A time value could not be extracted from the current line
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd was successful.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bullet_tb(test)
+run -all
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd failed with 2 errors.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 1 failed with 2 errors.
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:21 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:10:21 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:22 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# ** Error: bullet_tb.vhd(37): near ",": syntax error
+# ** Error: bullet_tb.vhd(39): Statement cannot be labeled.
+# ** Note: bullet_tb.vhd(99): VHDL Compiler exiting
+# End time: 00:10:22 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 6
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet_tb.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:42 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:10:42 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:10:42 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 00:10:43 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 00:10:45 on Nov 21,2021, Elapsed time: 0:23:33
+# Errors: 1, Warnings: 2
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 00:10:45 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:17:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:17:01 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:17:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 00:17:01 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:17:03 on Nov 21,2021, Elapsed time: 0:06:18
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 00:17:03 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:20:49 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:20:49 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:20:49 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 00:20:49 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:20:51 on Nov 21,2021, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 00:20:51 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:45:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(94): Signal "bullet_ready" cannot be target of variable assignment statement.
+# ** Error: bullet.vhd(79): Signal declaration 'bullet_ready' not allowed in this region.
+# ** Note: bullet.vhd(144): VHDL Compiler exiting
+# End time: 00:45:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:45:23 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(94): Signal "bullet_ready" cannot be target of variable assignment statement.
+# ** Error: bullet.vhd(79): Signal declaration 'bullet_ready' not allowed in this region.
+# ** Note: bullet.vhd(144): VHDL Compiler exiting
+# End time: 00:45:23 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:45:46 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(96): Signal "bullet_ready" cannot be target of variable assignment statement.
+# ** Note: bullet.vhd(146): VHDL Compiler exiting
+# End time: 00:45:46 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:47:13 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(95): Target of signal assignment is not a signal.
+# ** Note: bullet.vhd(145): VHDL Compiler exiting
+# End time: 00:47:13 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:47:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(95): Target of signal assignment is not a signal.
+# ** Note: bullet.vhd(145): VHDL Compiler exiting
+# End time: 00:47:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:48:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:48:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:48:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 00:48:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:48:10 on Nov 21,2021, Elapsed time: 0:27:19
+# Errors: 5, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 00:48:10 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:55:20 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 00:55:20 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:55:20 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 00:55:20 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 00:55:22 on Nov 21,2021, Elapsed time: 0:07:12
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 00:55:22 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:00:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 01:00:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:00:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 01:00:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:00:19 on Nov 21,2021, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 01:00:19 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:03:30 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(29): Nonresolved signal 'curr_st' has multiple sources.
+#   Drivers:
+#     bullet.vhd(61):Process clock_process_f
+#        Driven at:
+#           bullet.vhd(71)
+#     bullet.vhd(46):Process clock_process_s
+#        Driven at:
+#           bullet.vhd(49)
+# ** Note: bullet.vhd(147): VHDL Compiler exiting
+# End time: 01:03:30 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:05:04 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 01:05:04 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:05:04 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 01:05:04 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:05:06 on Nov 21,2021, Elapsed time: 0:04:47
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 01:05:06 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# WARNING: No extended dataflow license exists
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:13:24 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 01:13:24 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:13:24 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 01:13:24 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:13:26 on Nov 21,2021, Elapsed time: 0:08:20
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 01:13:26 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:17:23 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 01:17:23 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:17:23 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 01:17:23 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:17:25 on Nov 21,2021, Elapsed time: 0:03:59
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 01:17:25 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 01:45:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:45:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 01:45:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 01:45:49 on Nov 21,2021, Elapsed time: 0:28:24
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 01:45:49 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:23:12 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:23:12 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:23:12 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:23:12 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:23:14 on Nov 21,2021, Elapsed time: 8:37:25
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:23:14 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Warning: (vsim-8683) Uninitialized out port /bullet_tb/dut/xb(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /bullet_tb/dut/yb(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /bullet_tb/dut/hit_h has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /bullet_tb/dut/hit_l has no driver.
+# This port will contribute value (U) to the signal network.
+# ** Warning: (vsim-8683) Uninitialized out port /bullet_tb/dut/display_en has no driver.
+# This port will contribute value (U) to the signal network.
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:26:38 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:26:38 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:26:38 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:26:38 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:26:41 on Nov 21,2021, Elapsed time: 0:03:27
+# Errors: 0, Warnings: 6
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:26:41 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:29:02 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:29:02 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:29:02 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:29:02 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:29:04 on Nov 21,2021, Elapsed time: 0:02:23
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:29:04 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:31:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:31:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:31:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:31:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:31:20 on Nov 21,2021, Elapsed time: 0:02:16
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:31:20 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:33:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:33:48 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:33:48 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:33:48 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:33:50 on Nov 21,2021, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:33:50 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 400 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:35:22 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(116): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: bullet.vhd(116): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: bullet.vhd(162): VHDL Compiler exiting
+# End time: 10:35:23 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:35:39 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:35:40 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:35:40 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:35:40 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:35:42 on Nov 21,2021, Elapsed time: 0:01:52
+# Errors: 2, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:35:42 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 400 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:03 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 10:46:03 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 10:46:03 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 10:46:03 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 10:46:05 on Nov 21,2021, Elapsed time: 0:10:23
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 10:46:05 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 400 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:16:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:16:01 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:16:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:16:02 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 11:16:04 on Nov 21,2021, Elapsed time: 0:29:59
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:16:04 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 400 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:23:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:23:08 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:23:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:23:08 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:23:10 on Nov 21,2021, Elapsed time: 0:07:06
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:23:10 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 1200 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:24:44 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:24:44 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:24:44 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:24:44 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:24:46 on Nov 21,2021, Elapsed time: 0:01:36
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:24:46 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 480 ns  Iteration: 1  Instance: /bullet_tb/dut
+# WARNING: No extended dataflow license exists
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:28:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:28:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:28:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:28:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:28:10 on Nov 21,2021, Elapsed time: 0:03:24
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:28:10 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:19 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:37:19 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:37:19 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:37:19 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:37:21 on Nov 21,2021, Elapsed time: 0:09:11
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:37:21 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 1  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:34 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(134): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: bullet.vhd(134): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: bullet.vhd(170): VHDL Compiler exiting
+# End time: 11:39:34 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:42 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:39:43 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:39:43 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:39:43 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:39:45 on Nov 21,2021, Elapsed time: 0:02:24
+# Errors: 2, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:39:45 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:51:02 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:51:03 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:51:03 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:51:03 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:51:05 on Nov 21,2021, Elapsed time: 0:11:20
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:51:05 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:53:13 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 11:53:13 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:53:13 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 11:53:13 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 11:53:15 on Nov 21,2021, Elapsed time: 0:02:10
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 11:53:15 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:16:22 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:16:22 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:16:22 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:16:22 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:16:24 on Nov 21,2021, Elapsed time: 0:23:09
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:16:24 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:44 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(155): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: bullet.vhd(155): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: bullet.vhd(170): VHDL Compiler exiting
+# End time: 12:17:44 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:18:12 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:18:12 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:18:12 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:18:12 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:18:14 on Nov 21,2021, Elapsed time: 0:01:50
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:18:14 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:20:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:20:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:20:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:20:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:20:49 on Nov 21,2021, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:20:49 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:23:18 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(134): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: bullet.vhd(134): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: bullet.vhd(170): VHDL Compiler exiting
+# End time: 12:23:18 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:23:31 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:23:31 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:23:31 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:23:31 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:23:33 on Nov 21,2021, Elapsed time: 0:02:44
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:23:33 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:27 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:25:27 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:25:27 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:25:27 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:25:29 on Nov 21,2021, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:25:29 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 2  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:26:00 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:26:00 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:26:00 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:26:00 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:26:02 on Nov 21,2021, Elapsed time: 0:00:33
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:26:02 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 2  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:26:58 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:26:58 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:26:58 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:26:58 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:27:01 on Nov 21,2021, Elapsed time: 0:00:59
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:27:01 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 2  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:29:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:29:01 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:29:01 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:29:01 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:29:03 on Nov 21,2021, Elapsed time: 0:02:02
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:29:03 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 2  Instance: /bullet_tb/dut
+# ** Error: (vsim-86) Argument value -1 is not in bounds of subtype NATURAL.
+#    Time: 120 ns  Iteration: 3  Instance: /bullet_tb/dut
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:34:10 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(112): (vcom-1136) Unknown identifier "in_air_upward".
+# ** Error: bullet.vhd(151): (vcom-1581) No feasible entries for infix operator '='.
+# ** Error: bullet.vhd(151): Type error resolving infix expression "=" as type std.STANDARD.BOOLEAN.
+# ** Note: bullet.vhd(188): VHDL Compiler exiting
+# End time: 12:34:10 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:34:31 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# ** Error: bullet.vhd(112): (vcom-1136) Unknown identifier "in_air_upward".
+# ** Note: bullet.vhd(188): VHDL Compiler exiting
+# End time: 12:34:31 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./bullet_wave.do line 4
+# C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -2008 -work work "bullet.vhd""
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:34:48 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:34:48 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:34:48 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:34:49 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:34:51 on Nov 21,2021, Elapsed time: 0:05:48
+# Errors: 4, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:34:51 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:36:23 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:36:23 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:36:23 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:36:23 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:36:26 on Nov 21,2021, Elapsed time: 0:01:35
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:36:26 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:37:25 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:37:25 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:37:25 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:37:26 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 12:37:28 on Nov 21,2021, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:37:28 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:40:49 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:40:49 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:40:49 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:40:49 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:40:51 on Nov 21,2021, Elapsed time: 0:03:23
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:40:51 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:45:14 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 12:45:14 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:45:14 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 12:45:14 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 12:45:16 on Nov 21,2021, Elapsed time: 0:04:25
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 12:45:16 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:36 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:02:36 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:02:36 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:02:36 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:02:38 on Nov 21,2021, Elapsed time: 0:17:22
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:02:38 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:13:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:13:17 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:13:17 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:13:19 on Nov 21,2021, Elapsed time: 0:10:41
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:13:19 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:16:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:16:08 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:16:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:16:09 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:16:11 on Nov 21,2021, Elapsed time: 0:02:52
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:16:11 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 8890 ns ###############
+#       Signal: /bullet_tb/dut/display_en_c @ sub-iteration 0 at Value Z (bullet.vhd:35)
+#       Signal: /bullet_tb/dut/yb_C @ sub-iteration 0 at Value unknown (bullet.vhd:32)
+#       Signal: /bullet_tb/dut/xb_c @ sub-iteration 0 at Value unknown (bullet.vhd:31)
+#       Signal: /bullet_tb/dut/next_st @ sub-iteration 0 at Value 0 (bullet.vhd:29)
+#   Active process: /bullet_tb/dut/comb_process @ sub-iteration 1
+#     Source: bullet_tb.vhd:38
+#       Signal: /bullet_tb/dut/next_st @ sub-iteration 2 at Value Z (bullet.vhd:29)
+#       Signal: /bullet_tb/dut/display_en_c @ sub-iteration 2 at Value X (bullet.vhd:35)
+#       Signal: /bullet_tb/dut/yb_C @ sub-iteration 2 at Value unknown (bullet.vhd:32)
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 8890 ns.
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:17:41 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:17:41 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:17:41 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:17:41 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:17:44 on Nov 21,2021, Elapsed time: 0:01:33
+# Errors: 1, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:17:44 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:19:06 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:19:06 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:19:06 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:19:06 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:19:08 on Nov 21,2021, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:19:08 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:20:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:20:07 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:20:07 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:20:09 on Nov 21,2021, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:20:09 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:34:48 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:34:49 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:34:49 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:34:49 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:34:51 on Nov 21,2021, Elapsed time: 0:14:42
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:34:51 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:03 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:38:03 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:38:03 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:38:03 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:38:05 on Nov 21,2021, Elapsed time: 0:03:14
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:38:05 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:40:08 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:40:08 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:40:08 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:40:10 on Nov 21,2021, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:40:10 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:42:37 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:42:37 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:42:37 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:42:37 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 13:42:39 on Nov 21,2021, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:42:39 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:48:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 13:48:47 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 13:48:47 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 13:48:48 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 13:48:50 on Nov 21,2021, Elapsed time: 0:06:11
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 13:48:50 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:00:00 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 14:00:00 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:00:00 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 14:00:00 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:00:05 on Nov 21,2021, Elapsed time: 0:11:15
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 14:00:05 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:04:15 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 14:04:15 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:04:15 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 14:04:15 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 14:04:18 on Nov 21,2021, Elapsed time: 0:04:13
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 14:04:18 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+do bullet_wave.do
+# -9
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work work 
+# Modifying C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:05:18 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Loading package game_const
+# -- Compiling entity bullet
+# -- Compiling architecture fsm_bullet of bullet
+# End time: 14:05:18 on Nov 21,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 14:05:18 on Nov 21,2021
+# vcom -reportprogress 300 -2008 -work work bullet_tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bullet_tb
+# -- Compiling architecture test of bullet_tb
+# End time: 14:05:19 on Nov 21,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# End time: 14:05:21 on Nov 21,2021, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 1
+# vsim "+notimingchecks" -L work work.bullet_tb -wlf testbench.wlf 
+# Start time: 14:05:21 on Nov 21,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd was successful.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+run -all
+# Compile of bullet.vhd was successful.
+# Compile of bullet_tb.vhd was successful.
+# Compile of collision.vhd was successful.
+# Compile of game_const.vhd was successful.
+# 4 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.bullet_tb(test)
+# Loading work.game_const(body)
+# Loading work.bullet(fsm_bullet)
+# Loading work.collision(fsm_c)
+run -all
+# Compile of bullet.vhd failed with 8 errors.
+# Compile of bullet_tb.vhd was successful with warnings.
+# Compile of collision.vhd was successful with warnings.
+# Compile of game_const.vhd was successful with warnings.
+# 4 compiles, 1 failed with 8 errors.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Compile of bullet.vhd failed with 8 errors.
+# Compile of bullet_tb.vhd was successful with warnings.
+# Compile of collision.vhd was successful with warnings.
+# Compile of trigger.vhd was successful with warnings.
+# 4 compiles, 1 failed with 8 errors.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Compile of bullet.vhd failed with 8 errors.
+# Compile of bullet_tb.vhd was successful with warnings.
+# Compile of collision.vhd was successful with warnings.
+# Compile of trigger.vhd was successful with warnings.
+# 4 compiles, 1 failed with 8 errors.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.
+# Project file C:/Users/yxu19/Documents/GitHub/CE355_Final_Project/bullet.mpf is write protected, data cannot be saved.
+# Unable to save project.

@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "VGA_RED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[8]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_RED[9]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[8]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_GREEN[9]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLUE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "HORIZ_SYNC",
+					"strict" : false
+				},
+				{
+					"name" : "VERT_SYNC",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_BLANK",
+					"strict" : false
+				},
+				{
+					"name" : "VGA_CLK",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_RS",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_E",
+					"strict" : false
+				},
+				{
+					"name" : "RESET_LED",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[0]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[1]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[2]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[3]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[4]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[5]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[6]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[7]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[8]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[9]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[10]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[11]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[12]",
+					"strict" : false
+				},
+				{
+					"name" : "score_dis[13]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LCD_BUS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "RESET_N",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_50",
+					"strict" : false
+				},
+				{
+					"name" : "RESET",
+					"strict" : false
+				},
+				{
+					"name" : "k_data",
+					"strict" : false
+				},
+				{
+					"name" : "k_clk",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,23 @@
+LIBRARY IEEE;
+USE  IEEE.STD_LOGIC_1164.all;
+use IEEE.numeric_std.all;
+
+ENTITY score_board IS
+	PORT(reset, start, clk, direction, update : IN	STD_LOGIC;
+		  speed : IN STD_LOGIC_VECTOR(1 downto 0);
+		  pos_x,pos_y: OUT STD_LOGIC_VECTOR(15 downto 0));
+END score_board;
+
+
+ARCHITECTURE fsm_sb OF score_board IS
+	TYPE state IS (idle,f0,f1,f2,b0,b1,b2);
+	SIGNAL current,nex : state;
+	SIGNAL x, x_c : std_logic_vector(15 downto 0);
+	SIGNAL counter : INTEGER;
+begin
+statereg : process(reset,clk) is
+
+end process;
+
+
+end fsm_sb;
